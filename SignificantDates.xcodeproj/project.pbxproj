@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472452251A2C14BADF763800 /* libPods-SignificantDates.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 159190995AF18E1C4FFB96A6 /* libPods-SignificantDates.a */; };
 		710021351B8C85AB008A51C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 710021341B8C85AB008A51C0 /* main.m */; };
 		710021381B8C85AB008A51C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 710021371B8C85AB008A51C0 /* AppDelegate.m */; };
 		7100213B1B8C85AB008A51C0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7100213A1B8C85AB008A51C0 /* FirstViewController.m */; };
@@ -15,6 +16,16 @@
 		710021431B8C85AB008A51C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710021421B8C85AB008A51C0 /* Images.xcassets */; };
 		710021461B8C85AC008A51C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710021441B8C85AC008A51C0 /* LaunchScreen.xib */; };
 		710021521B8C85AC008A51C0 /* SignificantDatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 710021511B8C85AC008A51C0 /* SignificantDatesTests.m */; };
+		7100215D1B8C9142008A51C0 /* SDCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7100215C1B8C9142008A51C0 /* SDCoreDataController.m */; };
+		710021601B8C923B008A51C0 /* SignificantDates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7100215E1B8C923B008A51C0 /* SignificantDates.xcdatamodeld */; };
+		710021641B8C93A1008A51C0 /* SDDateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710021631B8C93A1008A51C0 /* SDDateTableViewController.m */; };
+		710021671B8C9635008A51C0 /* SDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 710021661B8C9635008A51C0 /* SDTableViewCell.m */; };
+		7100216B1B8C99B7008A51C0 /* Birthday.m in Sources */ = {isa = PBXBuildFile; fileRef = 7100216A1B8C99B7008A51C0 /* Birthday.m */; };
+		7100216E1B8C99B8008A51C0 /* Holiday.m in Sources */ = {isa = PBXBuildFile; fileRef = 7100216D1B8C99B8008A51C0 /* Holiday.m */; };
+		710021711B8CA176008A51C0 /* SDAddDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710021701B8CA176008A51C0 /* SDAddDateViewController.m */; };
+		710021741B8CAA61008A51C0 /* SDDateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710021731B8CAA61008A51C0 /* SDDateDetailViewController.m */; };
+		7168FC731B8DB1A000B4A9B6 /* SDAFParseAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7168FC721B8DB1A000B4A9B6 /* SDAFParseAPIClient.m */; };
+		7168FC761B8DB6BA00B4A9B6 /* SDSyncEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7168FC751B8DB6BA00B4A9B6 /* SDSyncEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		159190995AF18E1C4FFB96A6 /* libPods-SignificantDates.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SignificantDates.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7100212F1B8C85AB008A51C0 /* SignificantDates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignificantDates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		710021331B8C85AB008A51C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710021341B8C85AB008A51C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +55,28 @@
 		7100214B1B8C85AC008A51C0 /* SignificantDatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignificantDatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		710021501B8C85AC008A51C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710021511B8C85AC008A51C0 /* SignificantDatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignificantDatesTests.m; sourceTree = "<group>"; };
+		7100215B1B8C9142008A51C0 /* SDCoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCoreDataController.h; sourceTree = "<group>"; };
+		7100215C1B8C9142008A51C0 /* SDCoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCoreDataController.m; sourceTree = "<group>"; };
+		7100215F1B8C923B008A51C0 /* SignificantDates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SignificantDates.xcdatamodel; sourceTree = "<group>"; };
+		710021611B8C927D008A51C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		710021621B8C93A1008A51C0 /* SDDateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDDateTableViewController.h; sourceTree = "<group>"; };
+		710021631B8C93A1008A51C0 /* SDDateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDDateTableViewController.m; sourceTree = "<group>"; };
+		710021651B8C9635008A51C0 /* SDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTableViewCell.h; sourceTree = "<group>"; };
+		710021661B8C9635008A51C0 /* SDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTableViewCell.m; sourceTree = "<group>"; };
+		710021691B8C99B7008A51C0 /* Birthday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Birthday.h; path = Models/Birthday.h; sourceTree = "<group>"; };
+		7100216A1B8C99B7008A51C0 /* Birthday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Birthday.m; path = Models/Birthday.m; sourceTree = "<group>"; };
+		7100216C1B8C99B8008A51C0 /* Holiday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Holiday.h; path = Models/Holiday.h; sourceTree = "<group>"; };
+		7100216D1B8C99B8008A51C0 /* Holiday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Holiday.m; path = Models/Holiday.m; sourceTree = "<group>"; };
+		7100216F1B8CA176008A51C0 /* SDAddDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAddDateViewController.h; sourceTree = "<group>"; };
+		710021701B8CA176008A51C0 /* SDAddDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAddDateViewController.m; sourceTree = "<group>"; };
+		710021721B8CAA61008A51C0 /* SDDateDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDDateDetailViewController.h; sourceTree = "<group>"; };
+		710021731B8CAA61008A51C0 /* SDDateDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDDateDetailViewController.m; sourceTree = "<group>"; };
+		7168FC711B8DB1A000B4A9B6 /* SDAFParseAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAFParseAPIClient.h; sourceTree = "<group>"; };
+		7168FC721B8DB1A000B4A9B6 /* SDAFParseAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAFParseAPIClient.m; sourceTree = "<group>"; };
+		7168FC741B8DB6BA00B4A9B6 /* SDSyncEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSyncEngine.h; sourceTree = "<group>"; };
+		7168FC751B8DB6BA00B4A9B6 /* SDSyncEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSyncEngine.m; sourceTree = "<group>"; };
+		A32D5FB7537AEBFEED045718 /* Pods-SignificantDates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignificantDates.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignificantDates/Pods-SignificantDates.debug.xcconfig"; sourceTree = "<group>"; };
+		E0A223E87195B35625D81A4D /* Pods-SignificantDates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignificantDates.release.xcconfig"; path = "Pods/Target Support Files/Pods-SignificantDates/Pods-SignificantDates.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472452251A2C14BADF763800 /* libPods-SignificantDates.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +104,8 @@
 				710021311B8C85AB008A51C0 /* SignificantDates */,
 				7100214E1B8C85AC008A51C0 /* SignificantDatesTests */,
 				710021301B8C85AB008A51C0 /* Products */,
+				FA2DD5837BE2CA4D1A634EF8 /* Pods */,
+				E4E58A8256BD193A09AD5F40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +121,7 @@
 		710021311B8C85AB008A51C0 /* SignificantDates */ = {
 			isa = PBXGroup;
 			children = (
+				710021681B8C997C008A51C0 /* Models */,
 				710021361B8C85AB008A51C0 /* AppDelegate.h */,
 				710021371B8C85AB008A51C0 /* AppDelegate.m */,
 				710021391B8C85AB008A51C0 /* FirstViewController.h */,
@@ -94,6 +132,21 @@
 				710021421B8C85AB008A51C0 /* Images.xcassets */,
 				710021441B8C85AC008A51C0 /* LaunchScreen.xib */,
 				710021321B8C85AB008A51C0 /* Supporting Files */,
+				7100215B1B8C9142008A51C0 /* SDCoreDataController.h */,
+				7100215C1B8C9142008A51C0 /* SDCoreDataController.m */,
+				7100215E1B8C923B008A51C0 /* SignificantDates.xcdatamodeld */,
+				710021621B8C93A1008A51C0 /* SDDateTableViewController.h */,
+				710021631B8C93A1008A51C0 /* SDDateTableViewController.m */,
+				710021651B8C9635008A51C0 /* SDTableViewCell.h */,
+				710021661B8C9635008A51C0 /* SDTableViewCell.m */,
+				7100216F1B8CA176008A51C0 /* SDAddDateViewController.h */,
+				710021701B8CA176008A51C0 /* SDAddDateViewController.m */,
+				710021721B8CAA61008A51C0 /* SDDateDetailViewController.h */,
+				710021731B8CAA61008A51C0 /* SDDateDetailViewController.m */,
+				7168FC711B8DB1A000B4A9B6 /* SDAFParseAPIClient.h */,
+				7168FC721B8DB1A000B4A9B6 /* SDAFParseAPIClient.m */,
+				7168FC741B8DB6BA00B4A9B6 /* SDSyncEngine.h */,
+				7168FC751B8DB6BA00B4A9B6 /* SDSyncEngine.m */,
 			);
 			path = SignificantDates;
 			sourceTree = "<group>";
@@ -103,6 +156,7 @@
 			children = (
 				710021331B8C85AB008A51C0 /* Info.plist */,
 				710021341B8C85AB008A51C0 /* main.m */,
+				710021611B8C927D008A51C0 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -124,6 +178,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		710021681B8C997C008A51C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7100216C1B8C99B8008A51C0 /* Holiday.h */,
+				7100216D1B8C99B8008A51C0 /* Holiday.m */,
+				710021691B8C99B7008A51C0 /* Birthday.h */,
+				7100216A1B8C99B7008A51C0 /* Birthday.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E4E58A8256BD193A09AD5F40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				159190995AF18E1C4FFB96A6 /* libPods-SignificantDates.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA2DD5837BE2CA4D1A634EF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A32D5FB7537AEBFEED045718 /* Pods-SignificantDates.debug.xcconfig */,
+				E0A223E87195B35625D81A4D /* Pods-SignificantDates.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 710021551B8C85AC008A51C0 /* Build configuration list for PBXNativeTarget "SignificantDates" */;
 			buildPhases = (
+				1897DC07B4865514C4E30B55 /* Check Pods Manifest.lock */,
 				7100212B1B8C85AB008A51C0 /* Sources */,
 				7100212C1B8C85AB008A51C0 /* Frameworks */,
 				7100212D1B8C85AB008A51C0 /* Resources */,
+				4B79ADE62BEE3DABE4984F2D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +252,7 @@
 		710021271B8C85AB008A51C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SD;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Vyacheslav Zavertanny";
 				TargetAttributes = {
@@ -219,15 +304,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1897DC07B4865514C4E30B55 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B79ADE62BEE3DABE4984F2D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SignificantDates/Pods-SignificantDates-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7100212B1B8C85AB008A51C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7100213E1B8C85AB008A51C0 /* SecondViewController.m in Sources */,
+				710021601B8C923B008A51C0 /* SignificantDates.xcdatamodeld in Sources */,
+				7168FC731B8DB1A000B4A9B6 /* SDAFParseAPIClient.m in Sources */,
+				7168FC761B8DB6BA00B4A9B6 /* SDSyncEngine.m in Sources */,
+				7100216E1B8C99B8008A51C0 /* Holiday.m in Sources */,
 				710021381B8C85AB008A51C0 /* AppDelegate.m in Sources */,
 				7100213B1B8C85AB008A51C0 /* FirstViewController.m in Sources */,
+				7100215D1B8C9142008A51C0 /* SDCoreDataController.m in Sources */,
+				710021741B8CAA61008A51C0 /* SDDateDetailViewController.m in Sources */,
+				7100216B1B8C99B7008A51C0 /* Birthday.m in Sources */,
 				710021351B8C85AB008A51C0 /* main.m in Sources */,
+				710021671B8C9635008A51C0 /* SDTableViewCell.m in Sources */,
+				710021641B8C93A1008A51C0 /* SDDateTableViewController.m in Sources */,
+				710021711B8CA176008A51C0 /* SDAddDateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,8 +481,10 @@
 		};
 		710021561B8C85AC008A51C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32D5FB7537AEBFEED045718 /* Pods-SignificantDates.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = SignificantDates/PrefixHeader.pch;
 				INFOPLIST_FILE = SignificantDates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,8 +493,10 @@
 		};
 		710021571B8C85AC008A51C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A223E87195B35625D81A4D /* Pods-SignificantDates.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = SignificantDates/PrefixHeader.pch;
 				INFOPLIST_FILE = SignificantDates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,6 +556,7 @@
 				710021571B8C85AC008A51C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		710021581B8C85AC008A51C0 /* Build configuration list for PBXNativeTarget "SignificantDatesTests" */ = {
 			isa = XCConfigurationList;
@@ -432,8 +565,22 @@
 				7100215A1B8C85AC008A51C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7100215E1B8C923B008A51C0 /* SignificantDates.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7100215F1B8C923B008A51C0 /* SignificantDates.xcdatamodel */,
+			);
+			currentVersion = 7100215F1B8C923B008A51C0 /* SignificantDates.xcdatamodel */;
+			path = SignificantDates.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 710021271B8C85AB008A51C0 /* Project object */;
 }

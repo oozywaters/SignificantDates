@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "SDSyncEngine.h"
+#import "Holiday.h"
+#import "Birthday.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[SDSyncEngine sharedEngine] registerNSManagedObjectClassToSync:[Holiday class]];
+    [[SDSyncEngine sharedEngine] registerNSManagedObjectClassToSync:[Birthday class]];
+    
+    NSArray       *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString  *documentsDirectory = [paths objectAtIndex:0];
+    NSLog (@"documentsDirectory %@",documentsDirectory);
+    
     return YES;
 }
 
@@ -36,6 +46,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [[SDSyncEngine sharedEngine] startSync];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
