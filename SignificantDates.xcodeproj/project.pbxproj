@@ -27,6 +27,7 @@
 		7168FC731B8DB1A000B4A9B6 /* SDAFParseAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7168FC721B8DB1A000B4A9B6 /* SDAFParseAPIClient.m */; };
 		7168FC761B8DB6BA00B4A9B6 /* SDSyncEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7168FC751B8DB6BA00B4A9B6 /* SDSyncEngine.m */; };
 		71F465551B8DE51C00FFF766 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 71F465541B8DE51C00FFF766 /* Podfile */; };
+		71F465571B8DE71900FFF766 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 71F465561B8DE71900FFF766 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		7168FC741B8DB6BA00B4A9B6 /* SDSyncEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSyncEngine.h; sourceTree = "<group>"; };
 		7168FC751B8DB6BA00B4A9B6 /* SDSyncEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSyncEngine.m; sourceTree = "<group>"; };
 		71F465541B8DE51C00FFF766 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		71F465561B8DE71900FFF766 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		A32D5FB7537AEBFEED045718 /* Pods-SignificantDates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignificantDates.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignificantDates/Pods-SignificantDates.debug.xcconfig"; sourceTree = "<group>"; };
 		E0A223E87195B35625D81A4D /* Pods-SignificantDates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignificantDates.release.xcconfig"; path = "Pods/Target Support Files/Pods-SignificantDates/Pods-SignificantDates.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				71F465541B8DE51C00FFF766 /* Podfile */,
+				71F465561B8DE71900FFF766 /* Readme.md */,
 				710021311B8C85AB008A51C0 /* SignificantDates */,
 				7100214E1B8C85AC008A51C0 /* SignificantDatesTests */,
 				710021301B8C85AB008A51C0 /* Products */,
@@ -351,6 +354,7 @@
 				7168FC731B8DB1A000B4A9B6 /* SDAFParseAPIClient.m in Sources */,
 				7168FC761B8DB6BA00B4A9B6 /* SDSyncEngine.m in Sources */,
 				7100216E1B8C99B8008A51C0 /* Holiday.m in Sources */,
+				71F465571B8DE71900FFF766 /* Readme.md in Sources */,
 				710021381B8C85AB008A51C0 /* AppDelegate.m in Sources */,
 				7100213B1B8C85AB008A51C0 /* FirstViewController.m in Sources */,
 				7100215D1B8C9142008A51C0 /* SDCoreDataController.m in Sources */,
